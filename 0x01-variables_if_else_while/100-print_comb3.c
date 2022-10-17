@@ -9,24 +9,24 @@
 
 int main(void)
 {
-	int Digit1, Digit2;
+	int digit1, digit2;
 
-	for (Digit1 = 0; Digit1 < 9; Digit1++)
+	for (digit1 = '0'; digit1 <= '9'; digit1++)
 	{
-		for (Digit2 = Digit1 + 1; Digit2 < 10; Digit2++)
+		for (digit2 = (digit1 + 1); digit2 <= '9'; digit2++)
 		{
-		putchar((Digit1 % 10) + '0');
-		putchar((Digit2 % 10) + '0');
+			putchar(digit1);
+			putchar(digit2);
 
-		if (Digit2 == 8 && Digit2 == 9)
-			continue;
-
-		putchar(',');
-		putchar(' ');
+			if (digit1 != '8' || digit2 != '9')
+			{
+				putchar(',');
+				putchar(' ');
+			}
 		}
 	}
-		putchar('\n');
+	putchar('\n');
 
-		return (0);
+	return (0);
 
 }
