@@ -11,7 +11,7 @@ int main(void)
 {
 	int Digit1, Digit2;
 
-	for (Digit1 = 0; Digit1 < 9; Digit1)
+	for (Digit1 = 0; Digit1 < 9; Digit1++)
 	{
 		for (Digit2 = Digit1 + 1; Digit2 < 10; Digit2++)
 		{
