@@ -1,8 +1,7 @@
 #ifndef MAIN_H
-
 #define MAIN_H
 
-/*
+/**
  * File: main.h
  * Auth: Ojo Oyedeji
  * Description: Header file containing declarations for all functions
