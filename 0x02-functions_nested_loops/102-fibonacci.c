@@ -7,21 +7,25 @@
 
 int main(void)
 {
-	int counter;
-	int countto = 50;
-	long a = 1;
-	long b = 2;
+	long int i, j, k, next;
 
-	for (counter = 1; counter <= (countto / 2); counter++)
+	j = 1;
+
+	k = 2;
+
+	for (i = 1; i <= 50; ++i)
 	{
-		printf("%li %li ", a, b);
-		a += b;
-		b += a;
+		if (j != 20365011074)
+		{
+			printf("%ld, ", j);
+		}
+		else
+		{
+			printf("%ld\n", j);
+		}
+		next = j + k;
+		j = k;
+		k = next;
 	}
-	if (countto % 2 == 1)
-		printf("%li", a);
-
-	printf("\n");
-
 	return (0);
 }
