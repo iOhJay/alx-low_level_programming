@@ -70,8 +70,8 @@ char *postfix_match(char *str, char *postfix)
 
 /**
  * wildcmp - Compares two strings, considering wildcard characters.
- * @s1: The first string to be compared.
- * @s2: The second string to be compared - may contain wildcards.
+ * @s1: The first string to compare.
+ * @s2: The second string to be compare - may contain wildcards.
  *
  * Return: 1 - If the strings can be considered identical.
  *         0 - Otherwise.
