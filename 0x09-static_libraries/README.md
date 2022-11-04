@@ -1,6 +1,7 @@
-<h1>0x09. C - Static libraries</h>
+<h1>0x09. C - Static libraries</h1>
 
 
+<body>
 In this project, I learned what static libraries are and practiced creating and using them with ar, ranlib, and nm.
 
 Tests ✔️
@@ -54,3 +55,4 @@ main.h: Header file containing the prototypes of all functions included in libho
 1. Without libraries what have we? We have no past and no future
 
 create_static_lib.sh: Bash script that creates a static library called liball.a from all the .c files in the current directory.
+</body>
